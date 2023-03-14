@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import fk from "../../images/fk.jpg";
 
 function Menubar(props) {
   // console.log(props.count);
@@ -9,7 +10,7 @@ function Menubar(props) {
       <Navbar bg="light" variant="light">
         <Container>
           <Navbar.Brand href="#home" className="text-success font-weight-bold">
-            <h4>Fake-Store</h4>
+            <img width={200} height={50} src={fk} />
           </Navbar.Brand>
           <Nav className="ml-auto">
             <Nav.Link href="#home">Home</Nav.Link>
